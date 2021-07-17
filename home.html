@@ -1,0 +1,91 @@
+<!Doctype HTML>
+<html>
+<head>
+   <title>Crypton</title> 
+    <link rel="stylesheet" type="text/css" href="encryption.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href ="favicon.ico">
+</head>
+<body>
+    
+    <script>
+        var imagecount= 1;
+        var total = 5;
+        
+        window.setInterval(function slideshow(){
+            var Image= document.getElementById("img");
+            imagecount= imagecount+ 1;
+            if (imagecount > total ){imagecount = 1};
+            Image.src = 'Images/img' + imagecount + '.jpg'
+            
+        }, 3500);
+    
+    
+    
+    </script>
+
+
+<div id="wrapper">
+    <table width="100%"> 
+    <tr><td width="10%"></td> 
+        <td width="80%">
+<div id="top">
+   <center> <div id="header">
+        <div id="logo" >
+        
+        <p class="texthead">
+             <span>Crypton</span></p>
+        
+        </div>
+    </div>
+</center>
+        
+        <div id="navMenu">
+            <br />
+            
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="download.html">Download</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            
+        </ul>        
+            
+        </div>
+    <br/>   
+ 
+ </div>
+        </td> <td width="10%"></td></tr>
+        
+    <tr><td></td>
+        <td><div class="container"> 
+            <center>
+            <img id="img" src=Images/img1.jpg width="70%" ><br>
+                <p> Our Head Offices </p>
+            </center>
+           
+            </div><center><div id="short"> <p class="short">Crypton has state of the art offices <br>in several parts of the world<br>
+            including London, Thailand and <br>its chief headquarters in New York.</p></div></center></td><br>
+       </tr>
+    
+   <tr><td width="10%"></td>
+       <td><div class="user-container"><i><h2>What others have said about Crypton...</h2></i>
+            <div class="users"><p class="text1">"'kk6723yriFtT6F7W8'. I Coulnd't have understood that this meant 'Hi' <br> because the
+                encryption is so good."<br><span class="name">-Lawrenz</span></p></div>
+            
+              <div class="users"><p class="text1">"This application is very very very very very<br> very very very good<br>
+                  and it's really good to use."<br><span class="name">-Phettida</span></p></div>
+            
+          <div class="users"><p class="text1">"The crypton encryption program enabled <br> my company to send very secure
+              emails.<br> This software is a comprehensive system<br> that every business should have."<br>
+              <span class="name">-Kairo</span></p></div>
+            </div>
+       
+    
+       </td>
+        </tr></table>
+    
+    
+    
+    </div> 
+</body>
+</html>

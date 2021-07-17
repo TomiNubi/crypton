@@ -1,0 +1,33 @@
+<!Doctype HTML>
+<html>
+<head>
+   <title>Javascript</title> 
+</head>
+<body>
+    <script>
+   function door(kn){
+       var pic;
+       if (kn== 0){
+           pic = "doorclosed.jpg"
+       }
+       else {
+           pic = "dooropen.jpg"
+       }
+       document.getElementById("myImage").src = pic;
+   }
+        
+    
+    </script>
+    <noscript>Your browser does not support JavaScipt</noscript>
+    
+    <img id="myImage" src="doorclosed.jpg" width="100" height="200">
+    <p>
+        <button type="button" onclick="door(0)">Door Closed </button>
+        <button type="button" onclick="door(1)">Door Opened</button>
+    </p>
+    
+    
+    
+    
+</body>
+</html>
